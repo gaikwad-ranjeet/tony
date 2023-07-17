@@ -1,0 +1,183 @@
+body {
+    height: 90%;
+    width: 100%;
+    margin: 0;
+}
+
+/* css for header */
+header {
+    background-color: aquamarine;
+    height: 30px;
+    padding: 3px;
+    font-size: 30px;
+}
+
+#header {
+    height: 50px;
+    width: 1000px;
+    background-color: rgb(99, 185, 188);
+    margin-left: 10px;
+
+}
+
+#main {
+    display: flex;
+    background-color: white;
+    height: 80vh;
+    width: 100wh;
+}
+
+/* div box1 css */
+#box1 {
+    height: 700px;
+    width: 500px;
+    background-color: white;
+    float: left;
+
+}
+
+.img {
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 5px;
+
+}
+
+#p1 {
+    background-color: rgb(219, 216, 216);
+    /* height: 20px; */
+    margin-left: 60px;
+    margin-right: 60px;
+    font-size: medium;
+}
+
+th {
+    color: rgb(61, 212, 162);
+}
+
+table {
+    margin: auto;
+    text-align: center;
+
+}
+
+/* div box2 css */
+#box2 {
+    height: 700px;
+    width: 500px;
+    background-color: white;
+    float: left;
+}
+
+h4{
+    font-size:large;
+    /* font-weight: 10px; */
+    color: rgb(3, 132, 91);
+    padding: 0;
+}
+
+li {
+    background-color: rgb(63, 128, 63);
+    padding: 2px;
+    width: 300px;
+    margin: 0px;
+
+}
+
+#bio {
+    background-color: rgb(219, 216, 216);
+}
+
+
+
+
+/* div box3 css */
+#box3 {
+    height: 700px;
+    width: 400px;
+    background-color: white;
+    float: left;
+    margin-left: 50px;
+    margin-top: 0;
+
+}
+
+#personality {
+    font-size:medium;
+    /* font-weight: 10px; */
+    color: rgb(3, 132, 91);
+}
+
+.pers {
+    display: flex;
+    justify-content:space-between;
+    padding: 5px;
+}
+
+.flex-container {
+    width: 400px;
+    height: 20px;
+    background-color: gray;
+    display: flex;
+}
+
+.flex-box1 {
+    width: 20px;
+    height: 20px;
+    background: linear-gradient(red, purple);
+    margin-left: 40px;
+}
+
+.flex-box2 {
+    width: 20px;
+    height: 20px;
+    background: linear-gradient(red, purple);
+    margin-left: 80px;
+}
+
+.flex-box3 {
+    width: 20px;
+    height: 20px;
+    background: linear-gradient(red, purple);
+    margin-left: 80px;
+}
+
+.flex-box4 {
+    width: 20px;
+    height: 20px;
+    background: linear-gradient(red, purple);
+    margin-left: 40px;
+}
+
+.app {
+    width: 180px;
+    height: 20px;
+    background: linear-gradient(red, purple);
+    margin-left: 0px;
+}
+
+.network {
+    width: 160px;
+    height: 20px;
+    background: linear-gradient(red, purple);
+    margin-left: 0px;
+}
+
+.smartphone {
+    width: 200px;
+    height: 20px;
+    background: linear-gradient(red, purple);
+    margin-left: 0px;
+}
+
+.wearable {
+    width: 0px;
+    height: 20px;
+    background: linear-gradient(red, purple);
+    margin-left: 0px;
+}
+
+.brand {
+    display: flex;
+    justify-content: space-between;
+}
